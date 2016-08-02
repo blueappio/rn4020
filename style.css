@@ -1,0 +1,76 @@
+.thing {
+    padding: 14px;
+    font-size: large;
+    font-weight: 500;
+}
+
+md-toast.md-success-toast-theme .md-toast-content {
+    background-color: green;
+}
+
+md-toast.md-error-toast-theme .md-toast-content {
+    background-color: red;
+}
+
+md-toast {
+    top: 10px;
+    right: 0px;
+}
+
+.rn4020-textfield {
+    display: block;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.rn4020-textfield > textarea {
+    min-height: 390px;
+    width: 100%;
+}
+
+.rn4020-textfield > input, .rn4020-textfield > textarea {
+    -webkit-animation-duration: .1ms;
+    animation-duration: .1ms;
+    -webkit-animation-name: mui-node-inserted;
+    animation-name: mui-node-inserted;
+    display: block;
+    background-color: transparent;
+    color: rgba(0, 0, 0, .87);
+    border: none;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+    background-image: none;
+}
+
+.rn4020-textfiled-border {
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+.rn4020-textfield > input {
+    height: 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, .26);
+}
+
+.send-btn {
+    background-color: #28ade5 !important;
+    color: #ffffff !important;
+}
+
+.connect-btn {
+    background-color: rgb(21,101,192) !important;
+    color: #ffffff !important;
+}
+
+.list-panel {
+    padding: 5px 15px 5px 15px;
+    border-radius: 0;
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    color: #797979;
+}
